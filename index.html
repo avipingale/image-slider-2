@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .title{
+        width: 100%;
+        background-color: black;
+        color: white;
+    }
+    .div{
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+        height: 200px;
+        display: flex;
+        gap: 10px;
+        margin-left: 36%;
+    }
+    .div img{
+        border: 2px solid rgb(255, 0, 0);
+        filter: saturate(0%);
+        width: 10%;
+        border-radius: 12px;
+        height: 100%;
+        object-fit: cover;
+        transition: all ease 0.4s;
+        cursor: pointer;
+    }
+    .div img:hover{
+        filter: saturate(100%);
+        width: 100%;
+        box-shadow: 4px 5px 7px rgb(107, 106, 106);
+    }
+    p{
+        text-align: center;
+        color: brown;
+        margin-top: 100px;
+    }
+</style>
+<body>
+    <div class="title">
+        <h1>Image Slide</h1>
+    </div>
+    <div class="div">
+        <img src="iron.jpg" alt="">
+        <img src="hulk.webp" alt="">
+        <img src="spider.png" alt="">
+        <img src="thor.jpg" alt="">
+    </div>
+    <p>Avi_Pingale</p>
+</body>
+</html>
